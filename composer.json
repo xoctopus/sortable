@@ -1,0 +1,32 @@
+{
+    "name": "xoctopus/sortable",
+    "description": "",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xoctopus\\Sortable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo Yanes",
+            "email": "leo95batista@gmail.com"
+        }
+    ],
+    "keywords": [
+        "sort",
+        "laravel",
+        "eloquent"
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SortableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0.2"
+    }
+}
